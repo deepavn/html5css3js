@@ -1,6 +1,6 @@
 function checkvalue()
 {
-    qty = document.getElementById("myQty").getAttribute("value", 5);
+    qty = document.getElementById("myQty").getAttribute("value");
     if (qty==null){
         qty = 0;
     }

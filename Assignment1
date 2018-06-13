@@ -1,0 +1,26 @@
+Create a new html page called "Registration.html"
+Add bootstrap files in head.
+Create a separate .js file for controling the script. Call it "reg.js"
+Reference the script file in the Registration.html page
+
+In the html page: 
+Create a div section with "container" class.
+Add a nav-bar. See this example how to do it: 
+You can choose any type of nav. Just copy paste it in your file.
+The nav bar code should be placed inside the "div" section. 
+
+-----------------
+
+Below the nav bar, create another div section, with 2 columns. 1st column should be 3 units wide. 2nd column should be 8 units wide.
+Inside the 8 units wide column, create a form with the following controls:
+
+First Name
+Last Name
+Email Id
+Phone
+Address - State, City, Zip
+Submit Button
+-----------------------------------
+When submit button is clicked, verify values are entered for First Name and Email Id using Javascript
+-----------------------------------
+

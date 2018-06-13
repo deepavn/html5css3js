@@ -5,9 +5,16 @@ Reference the script file in the Registration.html page
 
 In the html page: 
 Create a div section with "container" class.
-Add a nav-bar. See this example how to do it: 
+Add a nav-bar. See this example how to do it: https://getbootstrap.com/docs/4.1/components/navs/
 You can choose any type of nav. Just copy paste it in your file.
 The nav bar code should be placed inside the "div" section. 
+For example: 
+<div class="container">
+********* Place nav code here....
+
+
+</div>
+
 
 -----------------
 

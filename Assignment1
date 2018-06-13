@@ -28,6 +28,10 @@ Phone
 Address - State, City, Zip
 Submit Button
 -----------------------------------
-When submit button is clicked, verify values are entered for First Name and Email Id using Javascript
+When submit button is clicked, verify values are entered for First Name and Email Id using Javascript. 
+If the value is empty, then a popup alert box should show.
+Example of popup box in javascript is: 
+alert("PLease enter a value");
+
 -----------------------------------
 

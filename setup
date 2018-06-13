@@ -1,10 +1,15 @@
-1. Install Node.js
-https://docs.npmjs.com/getting-started/installing-node
+Install visual studio code
+https://code.visualstudio.com/Download
 
+------------------------------------------------------------------
+1. Install Node.js
+nodejs.org
 It comes with npm (the package manager for acquiring and managing your development libraries)
+------------------------------------------------------------------
 
 2. Create a new folder for your project
 Somewhere in your drive, create a new folder html5css3js for your web app.
+------------------------------------------------------------------
 
 3. Add a package.json file to the project folder
 Then copy/paste the following text:
@@ -24,7 +29,7 @@ Then copy/paste the following text:
    } 
 }
 
- 
+------------------------------------------------------------------
 
 4. Install the web server
 In a terminal window (command prompt in Windows) opened on your project folder, run this command:
@@ -32,7 +37,7 @@ In a terminal window (command prompt in Windows) opened on your project folder, 
 npm install
 
 This will install lite-server (defined in package.json), a static server that loads index.html in your default browser and auto refreshes it when application files change.
-
+------------------------------------------------------------------
 
 5. Start the local web server!
 (Assuming you have an index.html file in your project folder).
@@ -40,3 +45,32 @@ This will install lite-server (defined in package.json), a static server that lo
 In the same terminal window (command prompt in Windows) run this command:
 
 npm start
+
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+
+How to install and use typescript
+
+> npm install -g typescript
+------------------------------------------------------------------
+
+Create a sampletype.ts file
+
+function show_product(pname) {
+    return "Product Name: " + pname;
+}
+
+let product_name = "Watch";
+
+document.getElementById("myContent").innerHTML =show_product(product_name);
+
+On command prompt type:
+> tsc sampletype.ts
+
+a .js file is crteated
+
+reference the .js file in index.html
+
+update index.html as shown in this project.
+
+

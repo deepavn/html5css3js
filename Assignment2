@@ -1,0 +1,120 @@
+
+
+create a folder called "images"
+
+and load all the pictures from this link, into that folder
+Load all jpeg files in this link, into your "images" folder
+
+https://github.com/deepavn/bootstrap4/tree/master/images
+-----------------------------------------------------------------------------------------------
+
+This is an example of a JSON data
+
+[
+{ "name":"John", "age":31, "city":"New York" },
+{ "name":"Hello", "age":45, "city":"Denwar" },
+ { "name":"Hello1", "age":32, "city":"Hyd" },
+{ "name":"Hello2", "age":33, "city":"Delhi" }
+]
+
+It looks like an array of data.
+
+Each part of the data within the { } is a record. 
+Each record has a "Key" and a "Value" pair. 
+
+For example in the first record:
+"Name" is the key
+"John" is the value (for the key called name)
+
+In the second record: 
+"age" is the key
+45 is the value (for the key called age)
+
+In the fourth record: 
+"city" is the key
+"Delhi" is the value (for the key called city)
+
+-----------------------------------------------------------------------------------------------
+create a file called products.json
+
+and in that, create data as shown in the above example.
+
+You must create 10 records.
+And each record must have similar keys, and different values for the keys. 
+
+The following are the keys you must create:
+
+productname
+price
+desc
+imgpath
+category
+
+Give your own values for each of the above keys. If you are not sure what value to give, leave blank.
+----------------------------------------
+
+Understanding JSON a little more....
+
+Create a new js file called : myjson.js
+And add the following script:
+
+var myObj, x;
+myObj = [{
+    "pname":"Pen",
+    "price":30,
+    "category":[ "Stationary", "Gift"]
+}, {
+    "pname":"Watch",
+    "price":850,
+    "category":[ "Jewelry", "Gift", "Electronics"]
+}, {
+    "pname":"Cycle",
+    "price":4500,
+    "category":[ "Fitness", "Sports", "Toys" ]
+}]
+;
+x = myObj[2].category[0];
+document.getElementById("demo").innerHTML = x;
+
+-----------------------------------------------------------------------------------
+
+Create a products.html page and add the following html in it...
+Make sure you add the bootstrap files, myjson script in the head.
+
+<!doctype html>
+<html lang="en">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+	...refer the bootstrap files
+	---refer the myjson script
+</head>
+<body>
+<h1>Access an array value of a JSON object.</h1>
+
+<p id="demo"></p>
+
+</body>
+</html>
+
+
+
+-----------------------------------------------------------------------------------
+
+Do npm start 
+> npm start (from the terminal)
+
+Run your page.
+What is the display ? 
+
+Does it it display "Fitness" ?
+
+Can you change the values in the script, such that it shows "Electronics" ?
+
+
+
+
+
+

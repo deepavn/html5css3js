@@ -2,23 +2,23 @@ Create a html page called "ProductDetails.component.html"
 
 The page should have product details designed in bootstrap as shown below:
 
-Add all the basic html content in it.
-html, head, body...
-Add the bootstrap script files.
+Copy paste the product.component.html code in this.
 
-Keep the body section empty...
+Remove all the content inside, the <div id="myContent"> ....
 
-in the body section create
+And here do the following:
+
+Add this...
 
 <div class="container">
 <div class="row">
 
- *****
+  
  
 </div>
 </div>
 
-Inside the "row" div, create two columns.
+Inside the "row" div above, create two columns.
 First column should be width 4 units. [Hint: col-md-4]
 Second column should be width 8 units.
 
@@ -27,9 +27,11 @@ Now in the first column, we will add a image.
 Use this link to add a image/ figure
 https://getbootstrap.com/docs/4.1/content/figures/
 
-In the second column, create
+Select your own image from google. Search for an abstract image of width 400x300 
+--------------
 
-In the second column, 
+In the second column....
+
 Use this link 
 https://getbootstrap.com/docs/4.1/content/typography/
 
@@ -66,4 +68,21 @@ $
 </div>
 
 ---------
+
+PART 2 of the assignment.
+
+Create another typescript file called 
+product.ts
+
+Copy-paste the sampletype.ts in it. 
+---------------------------------
+
+You saw how to display sampletype.ts data in index.html
+
+Can you do the same thing and make product content display in product.component.html page using product.ts file ? 
+Use the second column, yellow cell, to show the data. 
+
+The compilation command is (example)
+tsc product.ts
+
 

@@ -1,20 +1,15 @@
 Create a html page called "ProductDetails.component.html"
 
-The page should have product details designed in bootstrap as shown below:
-
 Copy paste the product.component.html code in this.
 
-Remove all the content inside, the <div id="myContent"> ....
-
-And here do the following:
+Remove all the content inside the <div id="myContent"> section....
+We will replace that code with the code below: 
 
 Add this...
 
 <div class="container">
 <div class="row">
 
-  
- 
 </div>
 </div>
 
@@ -71,7 +66,7 @@ $
 
 PART 2 of the assignment.
 
-Create another typescript file called 
+Create a typescript file called 
 product.ts
 
 Copy-paste the sampletype.ts in it. 
@@ -85,4 +80,4 @@ Use the second column, yellow cell, to show the data.
 The compilation command is (example)
 tsc product.ts
 
-
+dont forget to > npm start  after ts compilation. 
